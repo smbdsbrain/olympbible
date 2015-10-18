@@ -1,6 +1,6 @@
-#include<cstdio>
-#include<iostream>
-#include<algorithm>
+#include "cstdio"
+#include "iostream"
+#include "segment_tree.h"
 using namespace std;
 
 int main()
@@ -9,7 +9,5 @@ int main()
 	freopen("input.txt", "r", stdin);
 #endif
 
-	int a, b;
-	cin >> a >> b;
-	cout << std::min(a, b);
+	
 }
