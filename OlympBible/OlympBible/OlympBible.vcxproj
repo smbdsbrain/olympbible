@@ -148,6 +148,7 @@
     <Text Include="input.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="dijkstra.h" />
     <ClInclude Include="segment_tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
